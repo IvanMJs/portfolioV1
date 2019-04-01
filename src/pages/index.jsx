@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/perfil.jpeg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,40 +63,40 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Iván Meyer.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm developer, curious, observer and lover of technology.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Your weight"
+            link="https://tu-peso.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Calculate your weight with different measures.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Playlist-in-JS"
+            link="https://ivanmeyer91.github.io/Lista-de-reproduccion-en-JS/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            It's a list made with a bit of javascript, I put some of my favorite songs, I hope you like it!
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Dj Machine"
+            link=" https://bateria.netlify.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            It's done in javascript, start the loop and enjoy
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Travel agency"
+            link="https://github.com/ivanmeyer91/AgenciaDeViajes"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Travel agency that is made of a course, where it is done with nodes and a database connection.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,16 +105,16 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            The English language can not fully capture the depth and complexity of my thoughts.But I'm studying and
+            learning a lot from him.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I spend many personal hours in learning new technologies and their evolution I like challenges, teamwork.
+          Currently I work at <a href="https://cablasociados.com/#_">CABL & Asociados</a> as a Web Developer During one
+          summer I discovered the possibilities offered by communication networks and then I realized how much I enjoyed
+          it when translating the technology into a language that the public understood So I started with both inside
+          and remote courses and started developing to be able to show my skills on what I can offer
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -122,14 +122,13 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://www.instagram.com/ivan_meyer_/">Instagram</a> &{' '}
+            <a href="https://www.facebook.com/ivan.meyer3">Facebook</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 Made with gatsby and react.{' '}
+          <a href="https://github.com/ivanmeyer91/portfolio.io">Github Repository</a>
         </Footer>
       </Contact>
     </Parallax>
