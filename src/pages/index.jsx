@@ -20,6 +20,7 @@ import Contact from '../views/Contact'
 import Blog from '../views/Blog'
 
 import avatar from '../images/perfil.jpeg'
+// eslint-disable-next-line no-unused-vars
 import blog from '../images/blog.png'
 
 const ProjectsWrapper = styled.div`
