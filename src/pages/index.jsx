@@ -71,7 +71,9 @@ const Index = () => (
         <Subtitle>I'm developer, curious, observer and lover of technology.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>
+          Projects and more in my <a href="https://github.com/ivanmeyer91">Github</a>
+        </Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Your weight"
