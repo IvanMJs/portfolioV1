@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
@@ -16,8 +17,10 @@ import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
+import Blog from '../views/Blog'
 
 import avatar from '../images/perfil.jpeg'
+import blog from '../images/blog.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -100,10 +103,18 @@ const Index = () => (
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
+      <Blog offset={2.2}>
+        <BigTitle>
+          <h1>My blog</h1>
+        </BigTitle>
+        <Subtitle>
+          Things of my interest and tastes and TECHNOLOGY <a href="Blog">here</a>
+        </Subtitle>
+      </Blog>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Iván" />
           <AboutSub>
             The English language can not fully capture the depth and complexity of my thoughts.But I'm studying and
             learning a lot from him.
@@ -121,7 +132,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
+            Say <a href="mailto:ivanmeyer1991@gmail.com">Hi</a> or find me on other platforms:{' '}
             <a href="https://www.instagram.com/ivan_meyer_/">Instagram</a> &{' '}
             <a href="https://www.facebook.com/ivan.meyer3">Facebook</a>
           </ContactText>
