@@ -145,7 +145,7 @@ const Index = () => (
         </Inner>
         <Footer>
           &copy; 2019 Made with gatsby and react.{' '}
-          <a href="https://github.com/ivanmeyer91/portfolio.io">Github Repository</a>
+          <a href="https://github.com/ivanmeyer91/portfolioV1">Github Repository</a>
         </Footer>
       </Contact>
     </Parallax>
