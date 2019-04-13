@@ -80,11 +80,11 @@ const Index = () => (
         </Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Your weight"
-            link="https://tu-peso.netlify.com/"
+            title="Quoting"
+            link="https://cotizadorprestamo.netlify.com/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            Calculate your weight with different measures.
+                Loan quote made in React.
           </ProjectCard>
           <ProjectCard
             title="Playlist-in-JS"
