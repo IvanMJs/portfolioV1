@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable react/button-has-type */
 import React from 'react'
 import styled from 'styled-components'
@@ -67,9 +68,11 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Iván Meyer.
+          Hi!, <br /> I'm Iván Meyer.
         </BigTitle>
-        <Subtitle>I'm developer, curious, observer and lover of technology.</Subtitle>
+        <Subtitle>I'm developer, curious, observer and lover of technology.I make
+          this web with <a href="https://reactjs.org/">React</a>  and <a href="https://www.gatsbyjs.org/">Gatsby</a>
+        </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>
